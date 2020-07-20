@@ -1,0 +1,36 @@
+
+
+.rounded float-left{
+    height:90%;
+    width: auto;
+}
+
+
+.user_card {
+    background: #e4d7d73f;
+    justify-content: center;
+    flex-direction: column; 
+    padding : 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.roww{
+    margin: 5 px;
+}
+
+.extraac{
+    padding: 40px;
+    margin-top: 10px;
+}
+
+.sizing{
+    width: 50%;
+    height: auto;
+}
+
+
