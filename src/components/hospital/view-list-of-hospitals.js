@@ -3,7 +3,6 @@ import MaterialTable from 'material-table';
 import HospitalService from "../../services/hospital.service";
 import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
 import Iframe from "react-iframe"
-// import Navigation from "../navigation/navigation"
 import BurgerNavigation from "../navigation/burger-navigation"
 import hospital from "../images/hospital2.gif"
 
@@ -47,8 +46,6 @@ render() {
           title="Compiled from Ministry of Health & Population of Nepal"
           columns={[
             { title: 'Hospital Name', field: 'hospitalname' ,editable: 'onAdd'},
-            // { title: 'Longitude', field: 'longitude', type :'numeric' },
-            // { title: 'Latitude', field: 'latitude', type :'numeric' },
             { title: 'Contact', field: 'contact' },
             { title: 'Address', field: 'address'},
             { title: 'Province', field: 'province' },
